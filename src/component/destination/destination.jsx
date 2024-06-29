@@ -26,7 +26,7 @@ export default function Destination() {
       <div className="seccontainer">
         <div className="header">
           <span className="redtext">EXPLORE NOW</span>
-          <h3>Find Your Dream Code</h3>
+          <h3>Find Your Dreams Code</h3>
           <p>Fill in the field below to find the best code for your next skill</p>
         </div>
         <div className="searchfield grid">
