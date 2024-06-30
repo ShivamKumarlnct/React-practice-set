@@ -9,7 +9,8 @@ import Question from './component/question/question';
 import Subscribe from './component/subscribe/subscribe';
 import Portfolio from './component/portfolio/portfolio';
 import About from './component/about/about';
-import Sign from './component/sign/sign'
+import Sign from './component/sign/sign';
+import Video from './component/video/video';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 function App() {
@@ -40,6 +41,13 @@ function App() {
       element: <>
         <Navbar />
         <Sign/>
+
+      </>
+    },{
+      path: "/video",
+      element: <>
+        <Navbar />
+        <Video/>
 
       </>
     }

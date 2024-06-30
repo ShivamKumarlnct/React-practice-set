@@ -29,7 +29,8 @@ export default function Navbar() {
             Blog
           </li>
           <li className='navlist' onClick={toggleNavbar}>
-            Video
+         <Link to="/video" onClick={toggleNavbar}>Video</Link>
+
           </li>
           <li className='navlist'>
           <Link to="https://razorpay.me/@shivamkumar2807" onClick={toggleNavbar}>Payment</Link>
