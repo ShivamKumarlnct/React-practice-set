@@ -10,9 +10,21 @@ import Subscribe from './component/subscribe/subscribe';
 import Portfolio from './component/portfolio/portfolio';
 import About from './component/about/about';
 import Sign from './component/sign/sign';
-// import Video from './component/video/video';
+import Video from './component/video/video';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
+
+const video = [
+    "https://www.youtube.com/watch?v=ysz5S6PUM-U",
+    "https://www.youtube.com/watch?v=O6Xo21L0ybE",
+    "https://www.youtube.com/watch?v=jkGIu5BGZXE"
+  ];
+
+  const options = [
+    { label: 'Download', onClick: () => alert('Download option clicked') },
+    { label: 'Share', onClick: () => alert('Share option clicked') },
+    { label: 'Add to Playlist', onClick: () => alert('Add to Playlist option clicked') },
+  ];
 function App() {
 
   const router = createBrowserRouter([
@@ -44,10 +56,11 @@ function App() {
 
       </>
     },{
-      // path: "/video",
+      path: "/video",
       element: <>
-        {/* <Navbar />
-        <Video/> */}
+      <Video url={video} options={options} />
+              <Footer />
+
 
       </>
     }

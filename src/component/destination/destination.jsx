@@ -13,7 +13,7 @@ import Reacts from "../../assets/reacts.jpg";
 import Python from "../../assets/python.jpg";
 
 const destinations = [
-  { id: 1, img: Html, name: 'HTML', rating: 6 },
+  { id: 1, img: Html, name: 'HTML', rating: 6000 },
   { id: 2, img: Java, name: 'Java', rating: 6.5 },
   { id: 3, img: Node, name: 'Node', rating: 7 },
   { id: 4, img: Reacts, name: 'React', rating: 6.5 },
