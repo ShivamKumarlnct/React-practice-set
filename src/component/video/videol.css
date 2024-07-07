@@ -1,46 +1,23 @@
 /* video.css */
 
-.search-input {
-  width: 200px;
-  max-width: 800px;
-  padding: 10px;
-  margin-bottom: 20px;
-  border: 1px solid #dee2e6;
-  border-radius: 5px;
-  font-size: 16px;
-  transition: width 0.4s ease-in-out;
-}
-
-.search-input:focus {
-  width: 80%;
-}
-
 .video-player-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 20px;
-  background-color: #f0f2f5;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .options-menu {
   margin-bottom: 10px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
 }
 
 .more-options-btn {
   background-color: #007bff;
   color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 10px;
   cursor: pointer;
   border-radius: 5px;
-  transition: background-color 0.3s;
 }
 
 .more-options-btn:hover {
@@ -51,9 +28,6 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .options-menu li {
@@ -64,11 +38,10 @@
   background-color: #6c757d;
   color: white;
   border: none;
-  padding: 8px 16px;
+  padding: 8px;
   cursor: pointer;
   border-radius: 5px;
   width: 100%;
-  transition: background-color 0.3s;
 }
 
 .options-menu button:hover {
@@ -79,10 +52,6 @@
   position: relative;
   width: 80%;
   max-width: 800px;
-  margin-top: 20px;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .react-player {
@@ -95,17 +64,16 @@
   justify-content: space-between;
   width: 80%;
   max-width: 800px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .playlist-controls button {
   background-color: #007bff;
   color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 10px;
   cursor: pointer;
   border-radius: 5px;
-  transition: background-color 0.3s;
 }
 
 .playlist-controls button:hover {
@@ -115,27 +83,23 @@
 .video-list {
   width: 80%;
   max-width: 800px;
-  margin-top: 30px;
-  text-align: center;
+  margin-top: 20px;
 }
 
 .video-list h2 {
-  margin-bottom: 20px;
-  font-size: 24px;
-  color: #333;
+  margin-bottom: 10px;
 }
 
 .video-item {
-  background-color: #ffffff;
+  background-color: #f8f9fa;
   border: 1px solid #dee2e6;
-  padding: 10px 20px;
+  padding: 10px;
   cursor: pointer;
   border-radius: 5px;
-  margin-bottom: 10px;
-  transition: background-color 0.3s, transform 0.3s;
+  margin-bottom: 5px;
+  transition: background-color 0.3s ease;
 }
 
 .video-item:hover {
   background-color: #e2e6ea;
-  transform: scale(1.05);
 }

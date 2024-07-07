@@ -14,17 +14,17 @@ import Video from './component/video/video';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 
-const video = [
-    "https://www.youtube.com/watch?v=ysz5S6PUM-U",
-    "https://www.youtube.com/watch?v=O6Xo21L0ybE",
-    "https://www.youtube.com/watch?v=jkGIu5BGZXE"
+const playlist = [
+    { id: 1, url: 'https://www.youtube.com/watch?v=HcOc7P5BMi4&t=10s', title: 'HTML' },
+    { id: 2, url: 'https://www.youtube.com/watch?v=ESnrn1kAD4E&t=16s', title: 'CSS' },
+    { id: 3, url: 'https://www.youtube.com/watch?v=ajdRvxDWH4w&list=PLGjplNEQ1it_oTvuLRNqXfz_v_0pq6unW', title: 'Java-Script' }
   ];
 
   const options = [
-    { label: 'Download', onClick: () => alert('Download option clicked') },
-    { label: 'Share', onClick: () => alert('Share option clicked') },
-    { label: 'Add to Playlist', onClick: () => alert('Add to Playlist option clicked') },
+    { label: 'Option 1', onClick: () => console.log('Option 1 clicked') },
+    { label: 'Option 2', onClick: () => console.log('Option 2 clicked') },
   ];
+
 function App() {
 
   const router = createBrowserRouter([
@@ -58,7 +58,7 @@ function App() {
     },{
       path: "/video",
       element: <>
-      <Video url={video} options={options} />
+      <Video playlist={playlist} options={options} />
               <Footer />
 
 
