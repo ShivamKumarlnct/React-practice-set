@@ -1,27 +1,26 @@
-// src/AboutUs.js
-
 import React from 'react';
-import './about.css'; 
+import './about.css';
+
 const AboutUs = () => {
   return (
     <div className="about-us">
-      <h1>About Us</h1>
-      <p>
+      <h1 className="animated-title">About Us</h1>
+      <p className="animated-text">
         Welcome to <strong>Sikasha Educational Website</strong>, where learning meets innovation!
       </p>
 
-      <h2>Our Mission</h2>
-      <p>
+      <h2 className="animated-title">Our Mission</h2>
+      <p className="animated-text">
         At <strong>Sikasha Educational Website</strong>, our mission is to empower learners of all ages with the knowledge and skills needed to thrive in an ever-changing world. We believe that education is the cornerstone of personal and professional development, and we are committed to providing high-quality, accessible, and engaging educational resources to students, educators, and lifelong learners worldwide.
       </p>
 
-      <h2>Who We Are</h2>
-      <p>
+      <h2 className="animated-title">Who We Are</h2>
+      <p className="animated-text">
         We are a passionate team of educators, technologists, and innovators dedicated to transforming the educational experience. Our diverse backgrounds and expertise converge to create a platform that caters to various learning styles and needs. From interactive lessons and comprehensive study materials to expert-led courses and hands-on activities, we strive to make learning a joyful and enriching experience.
       </p>
 
-      <h2>What We Offer</h2>
-      <ul>
+      <h2 className="animated-title">What We Offer</h2>
+      <ul className="animated-list">
         <li><strong>Interactive Courses:</strong> Explore a wide range of courses designed by experienced educators and industry professionals. Our courses cover subjects from STEM to humanities, providing a balanced and holistic education.</li>
         <li><strong>Study Resources:</strong> Access a rich library of study guides, practice exercises, and instructional videos tailored to support your academic journey.</li>
         <li><strong>Personalized Learning:</strong> Benefit from personalized learning paths that adapt to your pace and level, ensuring you master each topic before moving on.</li>
@@ -29,7 +28,7 @@ const AboutUs = () => {
         <li><strong>Expert Guidance:</strong> Get insights and guidance from experts in various fields through webinars, Q&A sessions, and mentorship programs.</li>
       </ul>
 
-      <h2>Why Choose Us?</h2>
+      <h2 className="animated-title">Why Choose Us?</h2>
       <div className="why-choose-us">
         <div className="reason">
           <img src="https://img.freepik.com/free-vector/tiny-cute-children-learning-coding_74855-14175.jpg?t=st=1716149936~exp=1716153536~hmac=cf3e9c649491a73983f81e4b99d56668d7a0137e3709bca64b686f06a0f6f6e0&w=740" alt="Quality Content" />
@@ -49,11 +48,11 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <h2>Join Us Today</h2>
-      <p>
+      <h2 className="animated-title">Join Us Today</h2>
+      <p className="animated-text">
         Whether you are a student looking to excel in your studies, a teacher seeking innovative resources, or a lifelong learner eager to explore new topics, <strong>Sikasha Educational Website</strong> is here to support your educational journey. Together, let's build a brighter future through the power of education.
       </p>
-      <p>
+      <p className="animated-text">
         Discover more and start learning today at <a href="http://www.sikasha.com">www.sikasha.com</a>.
       </p>
     </div>
