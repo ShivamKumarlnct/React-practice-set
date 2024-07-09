@@ -82,6 +82,7 @@
 }
 .menuIcon,.closeIcon{
     font-size: var(--h1FontSize);
+    color: black;
     &:hover{
    color: var(--primaryColor);
     }
