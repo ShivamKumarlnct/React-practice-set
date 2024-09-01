@@ -11,7 +11,7 @@ import Portfolio from './component/portfolio/portfolio';
 import About from './component/about/about';
 import Sign from './component/sign/sign';
 import Video from './component/video/video';
-import Test from './component/testseries/test';
+import TestSe
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 
@@ -62,13 +62,6 @@ function App() {
       <Video playlist={playlist} options={options} />
               <Footer />
 
-
-      </>
-    },{
-      path: "/test",
-      element: <>
-        <Navbar />
-        <Test/>
 
       </>
     }

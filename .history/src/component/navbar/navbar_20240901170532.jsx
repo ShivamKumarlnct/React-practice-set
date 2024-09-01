@@ -26,7 +26,7 @@ export default function Navbar() {
             <Link to="/about" onClick={toggleNavbar}>About</Link>
           </li>
           <li className='navlist' onClick={toggleNavbar}>
-          <Link to="/test" onClick={toggleNavbar}>Test-Series</Link>
+          <Link to="/test" onClick={toggleNavbar}></Link>
           </li>
           <li className='navlist' onClick={toggleNavbar}>
          <Link to="/video" onClick={toggleNavbar}>Video</Link>
