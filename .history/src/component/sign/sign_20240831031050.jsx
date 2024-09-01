@@ -53,8 +53,6 @@ function Sign() {
                     type="password" 
                     placeholder="Password" 
                     onChange={handlePasswordChange}
-                    required
-
                 />
                 {passErr && <span>Invalid password</span>}
                 <br />

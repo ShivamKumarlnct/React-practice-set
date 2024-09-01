@@ -45,7 +45,7 @@ function Sign() {
                     type="text" 
                     placeholder="Enter username" 
                     onChange={handleUserChange}
-                    required
+                    req
                 />
                 {getErr && <span>Invalid username</span>}
                 <br />
@@ -53,8 +53,6 @@ function Sign() {
                     type="password" 
                     placeholder="Password" 
                     onChange={handlePasswordChange}
-                    required
-
                 />
                 {passErr && <span>Invalid password</span>}
                 <br />
