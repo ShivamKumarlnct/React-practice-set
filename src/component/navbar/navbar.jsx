@@ -65,7 +65,7 @@ export default function Navbar() {
 
       {showPasswordModal && (
         <div className='password-modal'>
-          <h3>Enter Password</h3>
+          <h3>Password is in the about</h3>
           <input
             type="password"
             value={password}
