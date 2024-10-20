@@ -34,6 +34,7 @@ root{
             font-size: var(--smallFontSize);
             font-weight: 800px;
             margin-left: 25px;
+
         }
         h3{
             font-size: var(--h1FontSize);
@@ -230,7 +231,7 @@ root{
                     justify-content: center;
                     gap :1rem;
                 }
-                li{
+                li {
                     background: transparent;
                     padding: 10px 17px;
                     border-radius: var(--borderRadius);
@@ -241,6 +242,9 @@ root{
                     &:hover{
                         color: var(--primaryColor);
                         border: 1.5px dashed var(--primaryColor);
+                    }
+                    a{
+                        color: black;
                     }
                 }
                 .active{

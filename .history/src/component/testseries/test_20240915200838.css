@@ -1,0 +1,16 @@
+/* App.css */
+.test {
+  text-align: center;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+label {
+  display: block;
+  margin: 5px 0;
+}
+button {
+  margin-top: 20px;
+  padding: 10px;
+}

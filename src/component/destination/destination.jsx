@@ -13,7 +13,7 @@ import Reacts from "../../assets/reacts.jpg";
 import Python from "../../assets/python.jpg";
 
 const destinations = [
-  { id: 1, img: Html, name: 'HTML', rating: 6000 },
+  { id: 1, img: Html, name: 'HTML', rating: 6 },
   { id: 2, img: Java, name: 'Java', rating: 6.5 },
   { id: 3, img: Node, name: 'Node', rating: 7 },
   { id: 4, img: Reacts, name: 'React', rating: 6.5 },
@@ -48,20 +48,44 @@ export default function Destination() {
           </button>
         </div>
         <div className='secmenu'>
-          <ul className='flex'>
-            <li className='active'>ALL</li>
-            <li>C</li>
-            <li>C++</li>
-            <li>JAVA</li>
-            <li>PYTHON</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JAVASCRIPT</li>
-            <li>REACT.JS</li>
-            <li>NODE.JS</li>
-            <li>EXPRESS</li>
-          </ul>
-        </div>
+  <ul className='flex'>
+    <li className='active'>
+      <a href="/path-to-all-skills.pdf" download="All_Skills.pdf">ALL</a>
+    </li>
+    <li>
+      <a href="/path-to-c.pdf" download="C_Programming.pdf">C</a>
+    </li>
+    <li>
+      <a href="/path-to-cpp.pdf" download="C++_Programming.pdf">C++</a>
+    </li>
+    <li>
+      <a href="/SQL.pdf" download="SQL_Programming.pdf">SQL</a>
+    </li>
+    <li>
+      <a href="/Java Important Notes.pdf" download="JAVA_Programming.pdf">JAVA</a>
+    </li>
+    <li>
+      <a href="/path-to-html.pdf" download="HTML.pdf">HTML</a>
+    </li>
+    <li>
+      <a href="/CSS.pdf" download="CSS.pdf">CSS</a>
+    </li>
+    <li>
+      <a href="/jspro.pdf" download="JavaScript.pdf">JAVASCRIPT</a>
+    </li>
+    <li>
+      <a href="/React.pdf" download="ReactJS.pdf">REACT.JS</a>
+    </li>
+    <li>
+      <a href="/Node Questions.pdf" download="NodeJS.pdf">NODE.JS</a>
+    </li>
+    <li>
+      <a href="/express.pdf" download="Express.pdf">EXPRESS</a>
+    </li>
+  </ul>
+</div>
+
+
         <div className='destinationcontainer grid'>
           {destinations.map(destination => (
             <div className='singledestination' key={destination.id}>

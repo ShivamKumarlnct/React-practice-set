@@ -3,6 +3,7 @@ import React from 'react';
 import './home.css';
 import Video from '../../assets/video.mp4';
 import { VscArrowRight } from "react-icons/vsc";
+
 export default function Home() {
   return (
     <div className="Home">

@@ -18,7 +18,13 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 const playlist = [
     { id: 1, url: 'https://www.youtube.com/watch?v=HcOc7P5BMi4&t=10s', title: 'HTML' },
     { id: 2, url: 'https://www.youtube.com/watch?v=ESnrn1kAD4E&t=16s', title: 'CSS' },
-    { id: 3, url: 'https://www.youtube.com/watch?v=ajdRvxDWH4w&list=PLGjplNEQ1it_oTvuLRNqXfz_v_0pq6unW', title: 'Java-Script' }
+    { id: 3, url: 'https://www.youtube.com/watch?v=ajdRvxDWH4w&list=PLGjplNEQ1it_oTvuLRNqXfz_v_0pq6unW', title: 'Java-Script' },
+    { id: 4, url: 'https://www.youtube.com/watch?v=vz1RlUyrc3w&list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige', title: 'REACT-JS' },
+    { id: 5, url: 'https://www.youtube.com/watch?v=hlGoQC332VM', title: 'SQL' },
+    { id: 6, url: 'https://www.youtube.com/watch?v=zaLfOjNEOaQ&list=PL8p2I9GklV456iofeMKReMTvWLr7Ki9At', title: 'Node.js' },
+
+
+  
   ];
 
   const options = [
@@ -52,7 +58,7 @@ function App() {
     },{
       path: "/sign",
       element: <>
-        <Navbar />
+        {/* <Navbar /> */}
         <Sign/>
 
       </>
@@ -67,8 +73,10 @@ function App() {
     },{
       path: "/test",
       element: <>
-        <Navbar />
         <Test/>
+        
+       <Footer />
+
 
       </>
     }

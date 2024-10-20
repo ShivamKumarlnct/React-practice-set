@@ -3,7 +3,7 @@ import "./review.css"
 import { FaStar } from "react-icons/fa";
 import Image4 from "../../assets/image4.jpg"
 import Image5 from "../../assets/image5.jpg"
-import Image6 from "../../assets/image6.jpg"
+import Image6 from "../../assets/image6.png"
 
 
 export default function review() {
