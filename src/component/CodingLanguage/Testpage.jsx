@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import LanguageSelector from './LanguageSelector';
 import Test from './Test'; 
 import Results from './Results'; 
-import Questions from './questions';
+import Questions from './Questions';
 import './testpage.css';
 
 const TestPage = () => {

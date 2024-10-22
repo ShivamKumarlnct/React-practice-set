@@ -38,7 +38,7 @@ export default function Navbar() {
     <div className='navbar'>
       <div className='logo'>
         <BiLogoMediumOld className='icons' />
-        <span>S-SIKASHA</span>
+        <span><strong>S-SIKASHA</strong></span>
       </div>
       <div className={showNavbar ? 'menu showNavbar' : 'menu'}>
         <ul>
