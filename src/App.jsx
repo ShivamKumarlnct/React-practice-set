@@ -12,6 +12,7 @@ import About from './component/about/about';
 import Sign from './component/sign/sign';
 import Video from './component/video/video';
 import Test from './component/testseries/test';
+import CodingLanguages from './component/CodingLanguage/Testpage';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 
@@ -79,7 +80,15 @@ function App() {
 
 
       </>
-    }
+    },{
+      path: "/codinglanguages",
+      element: <>
+        <CodingLanguages/>
+       <Footer />
+
+
+      </>
+    },
   ]);
 
   return (

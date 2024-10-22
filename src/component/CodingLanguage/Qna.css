@@ -1,0 +1,45 @@
+
+.question-container {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.question-text {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.options-container {
+    margin-left: 15px;
+}
+
+.option-item {
+    margin-bottom: 10px;
+}
+
+.option-label {
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    color: #555;
+    cursor: pointer;
+}
+
+.option-input {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.option-input:checked + label {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.option-input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
