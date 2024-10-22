@@ -70,7 +70,7 @@ export default function Navbar() {
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            placeholder="Enter password"
+            placeholder="Password is in the about"
           />
           <div className="modal-buttons">
             <button onClick={handlePasswordSubmit}>Submit</button>
