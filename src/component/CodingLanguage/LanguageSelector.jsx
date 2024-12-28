@@ -3,7 +3,7 @@ import './LanguageSelector.css';
 
 const LanguageSelector = ({ selectedLanguage, onLanguageChange }) => {
     const languages = [
-        'html', 
+        'Html', 
         'css', 
         'javascript', 
         'python', 
